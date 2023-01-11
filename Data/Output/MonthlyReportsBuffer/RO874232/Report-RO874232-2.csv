@@ -1,0 +1,4 @@
+InvoiceNumber,Item,Date,Amount,Tax,Total,Currency
+319397,"Beverages and Catering",2017-02-19,291928,58385.6,350314,CAD
+743981,"Various paper supplies",2017-02-20,85451,17090.2,102541,USD
+201178,"Concierge Services",2017-02-28,33284,6656.8,39940.8,RON

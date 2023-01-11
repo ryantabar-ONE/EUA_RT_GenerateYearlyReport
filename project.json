@@ -1,0 +1,145 @@
+{
+  "name": "EUA_RT_GenerateYearlyReport",
+  "description": "Download all the monthly reports for a specific vendor and generate a yearly report.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ca43d383-b62f-46b2-b7a3-8ed4240f53a2",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "81ac26e7-1027-41f9-ab91-d8aa3b54f716",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "381b8fca-61f1-4ed5-baa7-7be0d9b4531d",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0a919339-4e05-4f41-afeb-e4c203b7d2db",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0424515c-9042-4ebf-a2fa-9b0d82738e78",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e35a7499-00c2-4233-8b09-264a2b7c6503",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "aba0ccea-f84b-480a-b2d0-80b0985a4c18",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "68c55005-cd6e-4371-9d14-12a7cfe75e32",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\LoginSystem1TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "368c718b-2a6e-459f-b3b7-f0b5cfe72d7e",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ExtractWorkItemsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "8ac71272-376e-48ee-8d6b-690d30344706",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetClientDetailsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fb56be0d-8f7a-4dbf-812b-26d42dca9acf",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\DownloadMonthlyReportsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "17f61be2-b120-433b-b35a-20b3002536f3",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MergeMonthlyReportsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3d050d36-eaf1-4890-9dad-1d9faa0c9a9b",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\UploadYearlyReportTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "73ff42d7-9f41-4ac0-b231-80d4a50cba83",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\UpdateWorkItemsTestCase.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "9fbcd7e4-3ad7-4ef9-893b-97e7ab9cbcd0",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
